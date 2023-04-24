@@ -1,0 +1,11 @@
+<h1>Developer component</h1>
+
+<div>
+    <label>Prénom : {{ developper.firstName }}</label><br />
+    <label>Nom : {{ developper.lastName }}</label><br />
+    <label>Genre : {{ developper.gender }}</label><br />
+    <label>Bio : {{ developper.bio }}</label><br />
+    <label>Skills : </label><br />
+    
+    <app-skill [skillList]="skillList"></app-skill>    
+</div>
