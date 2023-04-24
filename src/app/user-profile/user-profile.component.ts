@@ -20,6 +20,7 @@ showHide() {
     quote: '',
     photo: 'https://randomuser.me/api/portraits/lego/2.jpg'
   };
+
 }
 
 

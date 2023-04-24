@@ -1,0 +1,21 @@
+form{
+    width: 450px;
+    margin: 0 auto;
+}
+
+input, 
+label {
+    width: 100%;
+}
+
+label {
+    margin-top: 1em;
+}
+
+input {
+    margin-bottom: 1em;
+}
+
+.errors {
+    color: red;
+}
