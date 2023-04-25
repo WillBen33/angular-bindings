@@ -10,6 +10,10 @@ import { MenuComponent } from './menu/menu.component';
 import { ChildComponentComponent } from './child-component/child-component.component';
 import { DeveloperComponent } from './developer/developer.component';
 import { SkillComponent } from './skill/skill.component';
+import { ChallengeOutputComponent } from './challenge-output/challenge-output.component';
+import { ErrorComponent } from './error/error.component';
+import { HomeComponent } from './home/home.component';
+import { CreateOnomatopiaComponent } from './create-onomatopia/create-onomatopia.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { SkillComponent } from './skill/skill.component';
     MenuComponent,
     ChildComponentComponent,
     DeveloperComponent,
-    SkillComponent
+    SkillComponent,
+    ChallengeOutputComponent,
+    ErrorComponent,
+    HomeComponent,
+    CreateOnomatopiaComponent
   ],
   imports: [
     BrowserModule,

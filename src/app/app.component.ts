@@ -6,11 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
-click() {
-  console.log("coucou");
-  
-}
-
   title = 'angular-binding';
 }
